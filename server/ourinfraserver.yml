@@ -56,7 +56,7 @@ Resources:
           cd /var/www/html   
           echo "Udacity Demo Web Server Up and Running!" > index.html
       ImageId: ami-061dbd1209944525c
-      KeyName: project2-udacity
+      
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
